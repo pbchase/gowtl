@@ -1,0 +1,21 @@
+Package: gowtl
+Title: GOWTL Reports
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Philip", "Chase",
+        email = "pbc@ufl.edu",
+        role = c("aut", "cre"),
+        comment=c(ORCID = "0000-0002-5318-9420")))
+Maintainer: Philip B Chase <pbc@ufl.edu>
+Description: Generate reports from the tenniscores.com for the Gainesville-Ocala Women's Tennis League.
+License: Apache License (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    dplyr,
+    janitor,
+    rlang,
+    rvest,
+    stringr,
+    tidyr

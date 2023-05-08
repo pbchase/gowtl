@@ -1,0 +1,7 @@
+^gowtl\.Rproj$
+^\.Rproj\.user$
+
+^output/
+^input/
+^report/
+^LICENSE\.md$
